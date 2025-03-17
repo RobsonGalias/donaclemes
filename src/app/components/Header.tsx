@@ -20,25 +20,25 @@ export function Header() {
                 <div className="flex justify-end w-[80%] h-full space-x-2 text-[10px] md:text-sm md:space-x-20">
                     <div className="flex justify-center items-center text-veforte font-bold cursor-pointer">
                         <span className="w-4 h-4 md:w-5 md:h-5 bg-green-400 rounded-full">
-                        <FaWhatsapp className="w-full h-full text-black"/></span>:
+                            <FaWhatsapp className="w-full h-full text-black" /></span>:
                         <div className="text-white">{"(17)99178-8780"}</div>
                     </div>
 
                     <div className="flex justify-center items-center text-veforte font-bold cursor-pointer">
                         <span className="w-4 h-4 md:w-5 md:h-5 bg-white rounded-full">
-                        <MdOutlinePhoneCallback className="w-full h-full text-black"/></span>:
+                            <MdOutlinePhoneCallback className="w-full h-full text-black" /></span>:
                         <div className="text-white">{"(17)99178-8780"}</div>
                     </div>
 
                     <div className="h-full flex justify-around items-center border-x border-black space-x-3 px-3">
                         <div className="w-5 h-5 cursor-pointer">
-                        <LuMapPinned className="w-full h-full text-black"/>
+                            <LuMapPinned className="w-full h-full text-black" />
                         </div>
                         <div className="w-5 h-5 cursor-pointer">
-                        <TiSocialInstagram className="w-full h-full text-black"/>
+                            <TiSocialInstagram className="w-full h-full text-black" />
                         </div>
                         <div className="w-5 h-5 cursor-pointer">
-                        <FaFacebookSquare className="w-full h-full text-black"/>
+                            <FaFacebookSquare className="w-full h-full text-black" />
                         </div>
                     </div>
                 </div>
@@ -59,13 +59,17 @@ export function Header() {
                             <span className="w-[200px] hidden absolute top-4  flex-col items-center text-white
                                 border-x border-b border-[#676565]/40 group-hover:flex">
                                 <li className="w-full h-[10px] text-center"></li>
-                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black">
+                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black"
+                                    onClick={() => scrollToSection("products")}>
                                     Assados</li>
-                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black">
+                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black"
+                                    onClick={() => scrollToSection("products")}>
                                     Fritos</li>
-                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black">
+                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black"
+                                    onClick={() => scrollToSection("products")}>
                                     Para Festas</li>
-                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black">
+                                <li className="border-[#676565]/40 border-t w-full text-center py-1 bg-[#DFD5D5] hover:text-black"
+                                    onClick={() => scrollToSection("products")}>
                                     Especiais</li>
                             </span>
                         </div>
