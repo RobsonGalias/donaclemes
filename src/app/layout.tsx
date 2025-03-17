@@ -1,16 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { Header } from "./components/Header";
+import { Barlow_Semi_Condensed } from "next/font/google";
+import { Footer } from "./components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const barlow = Barlow_Semi_Condensed({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Escolha os pesos que deseja usar
+  variable: "--font-barlow", // Nome personalizado para a variável CSS
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Escolha os pesos que deseja usar
+  variable: "--font-inter", // Nome personalizado para a variável CSS
 });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,11 +29,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${barlow.variable} overflow-x-hidden antialiased`}
       >
-        {children}
+        <Header/>
+        {children} 
+        <Footer/>
       </body>
     </html>
   );

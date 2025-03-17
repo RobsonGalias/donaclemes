@@ -1,0 +1,24 @@
+{
+    "websites": [
+      {
+        "name": "SALGADOS ASSADOS",
+        "images": ["images/assados.png"],
+        "description": "Leves, saborosos e feitos com ingredientes selecionados, nossos salgados assados são a escolha perfeita para qualquer ocasião. Uma combinação irresistível de massa macia e recheios bem temperados!"
+      },
+      {
+        "name": "SALGADOS FRITOS",
+        "images": ["images/fritos.png"],
+        "description": "Crocantes por fora, macios por dentro e recheados com muito sabor! Nossos salgados fritos são feitos com ingredientes selecionados e uma receita especial que garante qualidade e irresistibilidade em cada mordida."
+      },
+      {
+        "name": "SALGADOS GRANDES ASSADOS",
+        "images": ["images/festas.png"],
+        "description": "Sabores irresistíveis para tornar sua festa ainda mais especial! Nossos salgados assados são preparados com ingredientes selecionados e receitas tradicionais que garantem qualidade e muito sabor."
+      },
+      {
+        "name": "Salgados grandes fritos",
+        "images": ["images/especiais.png"],
+        "description": "Crocrância e sabor que fazem a diferença na sua festa! Nossos salgados fritos são feitos com massas especiais e recheios irresistíveis, garantindo qualidade e um toque caseiro."
+      }
+    ]
+  }
