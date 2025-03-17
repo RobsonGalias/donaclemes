@@ -1,7 +1,6 @@
 "use client"
 
 import { FaFacebookSquare, FaWhatsapp } from "react-icons/fa";
-import { FirstHomeCarrosel } from "./FirstHomeCarrosel";
 import { NavBar } from "./NavBar";
 import { MdOutlinePhoneCallback } from "react-icons/md";
 import { LuMapPinned } from "react-icons/lu";

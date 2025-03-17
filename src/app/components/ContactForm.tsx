@@ -14,7 +14,6 @@ export const ContactForm = () => {
     const [nameError, setNameError] = useState('');
     const [emailError, setEmailError] = useState('');
     const [messageError, setMessageError] = useState('');
-    const [phoneError, setPhoneError] = useState('');
     const [topicError, setTopicError] = useState('');
 
     function validateEmail(email: string): boolean {
@@ -54,16 +53,6 @@ export const ContactForm = () => {
             setEmailError('');
         }
 
-        if (!phone.trim()) {
-            setPhoneError("Por favor, insira um numero válido");
-            isValid = false;
-        } else if (!validatePhone(phone)) {
-            setPhoneError("Por favor, insira um numero válido");
-            setPhone('');
-            isValid = false;
-        } else {
-            setPhoneError('');
-        }
 
         if (!topic.trim()) {
             setTopicError("Por favor, insira assunto");

@@ -55,7 +55,7 @@ export default function FeedbackCarousel() {
         {/* Nome */}
         <h3 className="text-2xl font-serif font-semibold my-8 text-black md:text-4xl">{feedbacks[index].name}</h3>
         {/* Comentário */}
-        <p className="text-black max-w-sm text-lg mb-[74px] md:text-2xl md:max-w-xl">"{feedbacks[index].comment}"</p>
+        <p className="text-black max-w-sm text-lg mb-[74px] md:text-2xl md:max-w-xl">&quot;{feedbacks[index].comment}&quot;</p>
       </div>
 
       {/* Setas de Navegação */}
