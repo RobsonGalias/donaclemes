@@ -134,7 +134,7 @@ export const ThreeDivs = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
-                viewport={{ once: true, amount: 0.2 }} // Só anima uma vez quando 20% da div estiver visível
+                viewport={{ once: true, amount: 0.2 }} // Só anima uma vez quando 20% da div estiver visíveis
             >
                 <div className="w-[62px] h-[62px]">
                     <Image alt="" src={"/images/step-3.png"} width={800} height={800} className="w-full h-full object-cover" />
