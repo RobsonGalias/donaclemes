@@ -9,168 +9,168 @@ const jsonData = {
     "websites": [
         {
             "name": "SALGADOS ASSADOS",
-            "images": "/images/recipies/salgados-assados/esfirra-de-calabresa.jpeg",
+            "images": "/images/recipies/salgados-assados/esfirra-de-calabresa.webp",
             "description": "Leves, saborosos e feitos com ingredientes selecionados, nossos salgados assados são a escolha perfeita para qualquer ocasião. Uma combinação irresistível de massa macia e recheios bem temperados!",
             "recipies": [
                 {
                     "name": "ESFIRRA DE CARNE",
-                    "image": "/images/recipies/salgados-assados/esfirra-de-carne.jpg",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-carne.webp",
                     "desc": "Massa tradicional, carne  moída bovina selecionada  e temperos especiais."
                 },
                 {
                     "name": "ESFIRRA DE FRANGO",
-                    "image": "/images/recipies/salgados-assados/esfirra-de-frango.jpeg",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-frango.webp",
                     "desc": "Massa tradicional, peito de  frango desfiado e temperado  com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE CALABRESA",
-                    "image": "/images/recipies/salgados-assados/esfirra-de-calabresa.jpeg",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-calabresa.webp",
                     "desc": "ESFIRRA DE CALABRESA Massa tradicional, calabresa  defumada fatiada e temperada com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE QUEIJO CAIPIRA",
-                    "image": "/images/recipies/salgados-assados/esfirra-de-queijo-caipira.jpeg",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-queijo-caipira.webp",
                     "desc": "Massa tradicional, queijo muçarela, queijo caipira temperado com orégano e Catupiry."
                 },
                 {
                     "name": "CACHORRO QUENTE DE CARNE",
-                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-carne.jpeg",
+                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-carne.webp",
                     "desc": "Massa tradicional, carne moída bovina temperada, salsicha de frango, finalizado com um toque de orégano."
                 },
                 {
                     "name": "CACHORRO QUENTE DE FRANGO",
-                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-frango.jpeg",
+                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-frango.webp",
                     "desc": "Massa tradicional, peito de frango temperado, requeijão, salsicha de frango, finalizado com um toque de gergelim."
                 },
                 {
                     "name": "CORINTIANO ASSADO",
-                    "image": "/images/recipies/salgados-assados/corintiano-assado.jpg",
+                    "image": "/images/recipies/salgados-assados/corintiano-assado.webp",
                     "desc": "Massa tradicional, muçarela, presunto, requeijão e salada de tomate."
                 },
                 {
                     "name": "EMPADA",
-                    "image": "/images/recipies/salgados-assados/empada.jpeg",
+                    "image": "/images/recipies/salgados-assados/empada.webp",
                     "desc": "Massa especial Dona Clemes, recheio cremoso de frango com palmito e requeijão."
                 }
             ]
         },
         {
             "name": "SALGADOS FRITOS",
-            "images": "/images/recipies/salgados-fritos/kibe.jpeg",
+            "images": "/images/recipies/salgados-fritos/kibe.webp",
             "description": "Crocantes por fora, macios por dentro e recheados com muito sabor! Nossos salgados fritos são feitos com ingredientes selecionados e uma receita especial que garante qualidade e irresistibilidade em cada mordida.",
             "recipies": [
                 {
                     "name": "CORINTIANO FRITO",
-                    "image": "/images/recipies/salgados-fritos/corintiano-frito.jpeg",
+                    "image": "/images/recipies/salgados-fritos/corintiano-frito.webp",
                     "desc": "Massa especial cozida, recheio de muçarela, presunto e orégano."
                 },
                 {
                     "name": "COXINHA DE CARNE",
-                    "image": "/images/recipies/salgados-fritos/coxinha-de-carne.jpeg",
+                    "image": "/images/recipies/salgados-fritos/coxinha-de-carne.webp",
                     "desc": "Massa especial cozida, recheada com carne moída bovina e requeijão."
                 },
                 {
                     "name": " COXINHA DE FRANGO",
-                    "image": "/images/recipies/salgados-fritos/coxinha-de-frango.jpeg",
+                    "image": "/images/recipies/salgados-fritos/coxinha-de-frango.webp",
                     "desc": "Massa especial cozida, recheada com frango temperado e requeijão."
                 },
                 {
                     "name": "BOLINHA DE QUEIJO",
-                    "image": "/images/recipies/salgados-fritos/bolinho-de-queijo.jpeg",
+                    "image": "/images/recipies/salgados-fritos/bolinho-de-queijo.webp",
                     "desc": "Massa especial cozida com muçarela, recheado com muita muçarela e toque de orégano."
                 },
                 {
                     "name": "MINI BOLINHA DE CARNE",
-                    "image": "/images/recipies/salgados-fritos/mini-bolinho-de-carne.jpeg",
+                    "image": "/images/recipies/salgados-fritos/mini-bolinho-de-carne.webp",
                     "desc": "Carne moída bovina com tempero especial."
                 },
                 {
                     "name": "KIBE",
-                    "image": "/images/recipies/salgados-fritos/kibe.jpeg",
+                    "image": "/images/recipies/salgados-fritos/kibe.webp",
                     "desc": "Tradicional kibe, receita Dona Clemes, recheado com Mussarela."
                 },
                 {
                     "name": "CHURROS",
-                    "image": "/images/recipies/salgados-fritos/churros.jpeg",
+                    "image": "/images/recipies/salgados-fritos/churros.webp",
                     "desc": "Massa especial, recheado com doce de leite, finalizado com açúcar refinado e canela."
                 }
             ]
         },
         {
             "name": "SALGADOS GRANDES ASSADOS",
-            "images": "/images/recipies/grandes-assados/esfirra-de-carne.jpg",
+            "images": "/images/recipies/grandes-assados/esfirra-de-carne.webp",
             "description": "Sabores irresistíveis para tornar sua festa ainda mais especial! Nossos salgados assados são preparados com ingredientes selecionados e receitas tradicionais que garantem qualidade e muito sabor.",
             "recipies": [
                 {
                     "name": "ESFIRRA DE CARNE",
-                    "image": "/images/recipies/grandes-assados/esfirra-de-carne.jpg",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-carne.webp",
                     "desc": "Massa tradicional, carne moída bovina selecionada e temperos especiais."
                 },
                 {
                     "name": "ESFIRRA DE CARNE COM LIMÃO",
-                    "image": "/images/recipies/grandes-assados/esfirra-de-carne-com-limao.jpg",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-carne-com-limao.webp",
                     "desc": "Massa tradicional, carne bovina selecionada, temperos especiais e um toque de limão."
                 },
                 {
                     "name": "ESFIRRA DE FRANGO",
-                    "image": "/images/recipies/grandes-assados/esfirra-de-frango.jpg",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-frango.webp",
                     "desc": "Massa tradicional, peito de frango desfiado e temperado com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE CALABRESA",
-                    "image": "/images/recipies/grandes-assados/esfirra-de-calabresa.jpg",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-calabresa.webp",
                     "desc": "Massa tradicional, calabresa defumada fatiada e temperada com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE QUEIJO CAIPIRA",
-                    "image": "/images/recipies/grandes-assados/esfirra-de-queijo-caipira.jpg",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-queijo-caipira.webp",
                     "desc": "Massa tradicional, queijo muçarela, queijo caipira temperado com orégano e Catupiry."
                 },
                 {
                     "name": "CACHORRO QUENTE DE CARNE",
-                    "image": "/images/recipies/grandes-assados/cachorro-quente-carne.jpg",
+                    "image": "/images/recipies/grandes-assados/cachorro-quente-carne.webp",
                     "desc": "Massa tradicional, carne moída bovina temperada, salsicha de frango, finalizado com um toque de orégano."
                 },
                 {
                     "name": "CACHORRO QUENTE DE FRANGO",
-                    "image": "/images/recipies/grandes-assados/cachorro-quente-de-frango.jpg",
+                    "image": "/images/recipies/grandes-assados/cachorro-quente-de-frango.webp",
                     "desc": "Massa tradicional, peito de frango temperado, requeijão, salsicha de frango, finalizado com um toque de gergelim."
                 },
                 {
                     "name": "CORINTIANO ASSADO",
-                    "image": "/images/recipies/grandes-assados/corintiano-assado.jpg",
+                    "image": "/images/recipies/grandes-assados/corintiano-assado.webp",
                     "desc": "Massa tradicional, muçarela, presunto, requeijão e salada de tomate."
                 },
                 {
                     "name": "EMPADA",
-                    "image": "/images/recipies/grandes-assados/empada.jpg",
+                    "image": "/images/recipies/grandes-assados/empada.webp",
                     "desc": "Massa especial Dona Clemes, recheio cremoso de frango com palmito e requeijão."
                 },
                 {
                     "name": "HAMBÚRGUER COM CATUPIRY",
-                    "image": "/images/recipies/grandes-assados/hamburguer-com-catupiry.jpg",
+                    "image": "/images/recipies/grandes-assados/hamburguer-com-catupiry.webp",
                     "desc": "Massa tradicional, hambúrguer bovino, salada de tomate, muçarela e Cartupiry."
                 },
                 {
                     "name": "HAMBÚRGUER COM CHEDDAR",
-                    "image": "/images/recipies/grandes-assados/hamburguer-com-cheddar.jpg",
+                    "image": "/images/recipies/grandes-assados/hamburguer-com-cheddar.webp",
                     "desc": "Massa tradicional, hambúrguer bovino, salada de tomate, muçarela e cheddar cremoso."
                 }
             ]
         },
         {
             "name": "Salgados grandes fritos",
-            "images": "/images/recipies/grandes-fritos/espeto-com-legumes.jpg",
+            "images": "/images/recipies/grandes-fritos/espeto-com-legumes.webp",
             "description": "Crocrância e sabor que fazem a diferença na sua festa! Nossos salgados fritos são feitos com massas especiais e recheios irresistíveis, garantindo qualidade e um toque caseiro.",
             "recipies": [
                 {
                     "name": "ESPETO COM LEGUMES",
-                    "image": "/images/recipies/grandes-fritos/espeto-com-legumes.jpg",
+                    "image": "/images/recipies/grandes-fritos/espeto-com-legumes.webp",
                     "desc": "Peito de frango temperado, cebola, tomate e pimenta de cheiro. Empanado."
                 },
                 {
                     "name": "BOLINHA DE CARNE",
-                    "image": "/images/recipies/grandes-fritos/bolinho-de-carne.jpg",
+                    "image": "/images/recipies/grandes-fritos/bolinho-de-carne.webp",
                     "desc": "Carne moída bovina com tempero especial Dona Clemes."
                 }
             ]

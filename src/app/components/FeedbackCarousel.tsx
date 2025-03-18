@@ -9,19 +9,19 @@ const feedbacks = [
   {
     id: 1,
     name: "Ana Julia",
-    image: "/images/ana.jpg",
+    image: "/images/ana.webp",
     comment: "Os salgados da Dona Clemes são simplesmente incríveis! Encomendei para a festa do meu filho e todos os convidados elogiaram o sabor e a qualidade. Massa leve, recheio farto e tudo muito bem preparado. Com certeza virei cliente fiel!",
   },
   {
     id: 2,
     name: "Cleonice Honorio",
-    image: "/images/cleonice.jpg",
+    image: "/images/cleonice.webp",
     comment: "Experimentei os salgados da Dona Clemes e fiquei impressionado! São deliciosos, bem temperados e com uma qualidade impecável. Desde a primeira mordida, dá para sentir o carinho e capricho no preparo. Recomendo para qualquer ocasião!",
   },
   {
     id: 3,
     name: "Wilson Santos",
-    image: "/images/wilson.jpg",
+    image: "/images/wilson.webp",
     comment: "Os salgados da Dona Clemes foram o grande destaque do nosso evento! Todos amaram o sabor e a textura perfeita. Além disso, o atendimento foi excelente e a entrega super pontual. Não vejo a hora de fazer um novo pedido!",
   },
 ];

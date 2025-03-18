@@ -16,7 +16,7 @@
   --font-barlow: var(--font-barlow);
   --background-image-logo: url('/images/logo.png');
   --background-image-plate: url('/images/plate.png');
-  --background-image-transparente: url('/images/transparente.jpg');
+  --background-image-transparente: url('/images/transparente.webp');
 }
 
 @media (prefers-color-scheme: dark) {
