@@ -8,7 +8,7 @@ export const FirstHomeCarrosel = () => {
     const [changeBanner, setChangeBanner] = useState(0);
     const totalBanners = 3;
 
-    const banners = ["/images/banner-1.jpeg", "/images/especiais.jpeg", "/images/banner-3.jpg"];
+    const banners = ["/images/banner-1.webp", "/images/especiais.webp", "/images/banner-3.webp"];
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ export const FirstHomeCarrosel = () => {
             <div className="w-full h-full flex justify-center items-center">
                 <div className="w-full h-full flex justify-end flex-col items-center relative">
                     <div className="relative w-full h-full overflow-hidden">
-                        {/* Aplicando motion.div com efeito de zoom contínuo */}
+                        {/* Aplicando motion.div com efeito de zoom contínuo*/}
                         <motion.div
                             key={changeBanner} // Usando o key para garantir que a animação ocorra toda vez que a imagem mudar
                             initial={{ scale: 1 }}  // Começa com a imagem no tamanho normal
