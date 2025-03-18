@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { AboutOrder } from "./components/AboutOrder";
 import FeedbackCarousel from "./components/FeedbackCarousel";
 import { FirstHomeCarrosel } from "./components/FirstHomeCarrosel";

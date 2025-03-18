@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { useMotionValue, useSpring } from "framer-motion";
 import { useEffect } from "react";
 
 export const AboutOrder = () => {
@@ -10,6 +10,8 @@ export const AboutOrder = () => {
   // Criando um movimento suave e sutil
   const smoothX = useSpring(mouseX, { stiffness: 50, damping: 20 });
   const smoothY = useSpring(mouseY, { stiffness: 50, damping: 20 });
+
+  console.log({smoothX, smoothY});
 
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
