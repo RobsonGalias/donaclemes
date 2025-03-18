@@ -8,153 +8,168 @@ const jsonData = {
     "websites": [
         {
             "name": "SALGADOS ASSADOS",
-            "images": "/images/assados.jpg",
+            "images": "/images/recipies/salgados-assados/esfirra-de-calabresa.jpeg",
             "description": "Leves, saborosos e feitos com ingredientes selecionados, nossos salgados assados são a escolha perfeita para qualquer ocasião. Uma combinação irresistível de massa macia e recheios bem temperados!",
             "recipies": [
                 {
                     "name": "ESFIRRA DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-carne.jpg",
                     "desc": "Massa tradicional, carne  moída bovina selecionada  e temperos especiais."
                 },
                 {
                     "name": "ESFIRRA DE FRANGO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-frango.jpeg",
                     "desc": "Massa tradicional, peito de  frango desfiado e temperado  com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE CALABRESA",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-calabresa.jpeg",
                     "desc": "ESFIRRA DE CALABRESA Massa tradicional, calabresa  defumada fatiada e temperada com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE QUEIJO CAIPIRA",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/esfirra-de-queijo-caipira.jpeg",
                     "desc": "Massa tradicional, queijo muçarela, queijo caipira temperado com orégano e Catupiry."
                 },
                 {
                     "name": "CACHORRO QUENTE DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-carne.jpeg",
                     "desc": "Massa tradicional, carne moída bovina temperada, salsicha de frango, finalizado com um toque de orégano."
                 },
                 {
                     "name": "CACHORRO QUENTE DE FRANGO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/cachorro-quente-de-frango.jpeg",
                     "desc": "Massa tradicional, peito de frango temperado, requeijão, salsicha de frango, finalizado com um toque de gergelim."
                 },
                 {
                     "name": "CORINTIANO ASSADO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/corintiano-assado.jpg",
                     "desc": "Massa tradicional, muçarela, presunto, requeijão e salada de tomate."
                 },
                 {
                     "name": "EMPADA",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-assados/empada.jpeg",
                     "desc": "Massa especial Dona Clemes, recheio cremoso de frango com palmito e requeijão."
                 }
             ]
         },
         {
             "name": "SALGADOS FRITOS",
-            "images": "/images/fritos.jpg",
+            "images": "/images/recipies/salgados-fritos/kibe.jpeg",
             "description": "Crocantes por fora, macios por dentro e recheados com muito sabor! Nossos salgados fritos são feitos com ingredientes selecionados e uma receita especial que garante qualidade e irresistibilidade em cada mordida.",
             "recipies": [
                 {
                     "name": "CORINTIANO FRITO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/corintiano-frito.jpeg",
                     "desc": "Massa especial cozida, recheio de muçarela, presunto e orégano."
                 },
                 {
                     "name": "COXINHA DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/coxinha-de-carne.jpeg",
                     "desc": "Massa especial cozida, recheada com carne moída bovina e requeijão."
                 },
                 {
                     "name": " COXINHA DE FRANGO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/coxinha-de-frango.jpeg",
                     "desc": "Massa especial cozida, recheada com frango temperado e requeijão."
                 },
                 {
                     "name": "BOLINHA DE QUEIJO",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/bolinho-de-queijo.jpeg",
                     "desc": "Massa especial cozida com muçarela, recheado com muita muçarela e toque de orégano."
                 },
                 {
                     "name": "MINI BOLINHA DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/mini-bolinho-de-carne.jpeg",
                     "desc": "Carne moída bovina com tempero especial."
                 },
                 {
                     "name": "KIBE",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/kibe.jpeg",
                     "desc": "Tradicional kibe, receita Dona Clemes, recheado com Mussarela."
                 },
                 {
                     "name": "CHURROS",
-                    "image": "/",
+                    "image": "/images/recipies/salgados-fritos/churros.jpeg",
                     "desc": "Massa especial, recheado com doce de leite, finalizado com açúcar refinado e canela."
                 }
             ]
         },
         {
             "name": "SALGADOS GRANDES ASSADOS",
-            "images": "/images/festas.jpeg",
+            "images": "/images/recipies/grandes-assados/esfirra-de-carne.jpg",
             "description": "Sabores irresistíveis para tornar sua festa ainda mais especial! Nossos salgados assados são preparados com ingredientes selecionados e receitas tradicionais que garantem qualidade e muito sabor.",
             "recipies": [
                 {
                     "name": "ESFIRRA DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-carne.jpg",
                     "desc": "Massa tradicional, carne moída bovina selecionada e temperos especiais."
                 },
                 {
                     "name": "ESFIRRA DE CARNE COM LIMÃO",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-carne-com-limao.jpg",
                     "desc": "Massa tradicional, carne bovina selecionada, temperos especiais e um toque de limão."
                 },
                 {
                     "name": "ESFIRRA DE FRANGO",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-frango.jpg",
                     "desc": "Massa tradicional, peito de frango desfiado e temperado com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE CALABRESA",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-calabresa.jpg",
                     "desc": "Massa tradicional, calabresa defumada fatiada e temperada com requeijão."
                 },
                 {
                     "name": "ESFIRRA DE QUEIJO CAIPIRA",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/esfirra-de-queijo-caipira.jpg",
                     "desc": "Massa tradicional, queijo muçarela, queijo caipira temperado com orégano e Catupiry."
                 },
                 {
                     "name": "CACHORRO QUENTE DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/cachorro-quente-carne.jpg",
                     "desc": "Massa tradicional, carne moída bovina temperada, salsicha de frango, finalizado com um toque de orégano."
                 },
                 {
                     "name": "CACHORRO QUENTE DE FRANGO",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/cachorro-quente-de-frango.jpg",
                     "desc": "Massa tradicional, peito de frango temperado, requeijão, salsicha de frango, finalizado com um toque de gergelim."
                 },
                 {
                     "name": "CORINTIANO ASSADO",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-assados/corintiano-assado.jpg",
                     "desc": "Massa tradicional, muçarela, presunto, requeijão e salada de tomate."
+                },
+                {
+                    "name": "EMPADA",
+                    "image": "/images/recipies/grandes-assados/empada.jpg",
+                    "desc": "Massa especial Dona Clemes, recheio cremoso de frango com palmito e requeijão."
+                },
+                {
+                    "name": "HAMBÚRGUER COM CATUPIRY",
+                    "image": "/images/recipies/grandes-assados/hamburguer-com-catupiry.jpg",
+                    "desc": "Massa tradicional, hambúrguer bovino, salada de tomate, muçarela e Cartupiry."
+                },
+                {
+                    "name": "HAMBÚRGUER COM CHEDDAR",
+                    "image": "/images/recipies/grandes-assados/hamburguer-com-cheddar.jpg",
+                    "desc": "Massa tradicional, hambúrguer bovino, salada de tomate, muçarela e cheddar cremoso."
                 }
             ]
         },
         {
             "name": "Salgados grandes fritos",
-            "images": "/images/especiais.jpeg",
+            "images": "/images/recipies/grandes-fritos/espeto-com-legumes.jpg",
             "description": "Crocrância e sabor que fazem a diferença na sua festa! Nossos salgados fritos são feitos com massas especiais e recheios irresistíveis, garantindo qualidade e um toque caseiro.",
             "recipies": [
                 {
                     "name": "ESPETO COM LEGUMES",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-fritos/espeto-com-legumes.jpg",
                     "desc": "Peito de frango temperado, cebola, tomate e pimenta de cheiro. Empanado."
                 },
                 {
                     "name": "BOLINHA DE CARNE",
-                    "image": "/",
+                    "image": "/images/recipies/grandes-fritos/bolinho-de-carne.jpg",
                     "desc": "Carne moída bovina com tempero especial Dona Clemes."
                 }
             ]
@@ -229,7 +244,9 @@ export const MakeOrder = () => {
                 </div>
             </section>
 
-            <section id="order" className={`w-screen flex justify-center items-center flex-col bg-white ${openDiv ? "flex" : "hidden"}`}>
+            <div id="order" className="w-screen"></div>
+
+            <section className={`w-screen flex justify-center items-center flex-col bg-white ${openDiv ? "flex" : "hidden"}`}>
                 <div className="w-[80%] flex justify-center items-center flex-col md:flex-row md:items-start md:space-x-8">
                     <div className="w-full h-[300px] flex justify-center items-center relative md:h-[400px] xl:h-[600px]">
                         <span className="w-8 h-full bg-white absolute md:w-4 xl:w-10"></span>
@@ -246,16 +263,16 @@ export const MakeOrder = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-14 mt-[123px]">
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-14 mt-[123px] mb-[100px]">
                     {item.recipies.map((recipe, index) => (
-                        <div key={index} className="w-[170px] flex flex-col justify-center items-center border 
-                        border-[#D9D9D9] bg-[#F7F7F7] mb-10 lg:mb-[115px] md:w-[245px]">
+                        <div key={index} className="w-[170px] flex flex-col justify-[flex-start] items-center border 
+                        border-[#D9D9D9] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]">
                             <Image
                                 src={recipe.image}
                                 alt={recipe.name}
                                 width={245}
                                 height={170}
-                                className="w-full h-full object-cover bg-green-400"
+                                className="w-full h-[170px] object-cover bg-green-400"
                             />
                             <h4 className="text-black font-bold text-[13px] mt-5 mb-4 text-center md:text-base">{recipe.name}</h4>
                             <p className="text-[#ABA3A3] font-bold text-[12px] text-center mb-9 md:text-sm">{recipe.desc}</p>
