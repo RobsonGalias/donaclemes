@@ -18,28 +18,33 @@ export function Header() {
         <header className="relative w-screen flex justify-center font-inter">
             <div className="w-screen h-12 bg-[#D9D9D9] flex justify-around items-center">
                 <div className="flex justify-end w-[80%] h-full space-x-2 text-[10px] md:text-sm md:space-x-20">
-                    <div className="flex justify-center items-center text-veforte font-bold cursor-pointer">
+                    <a href="https://wa.me/5517991788780" title="Ir para o WhatsApp" target="_blank"
+                        className="flex justify-center items-center text-veforte font-bold cursor-pointer">
                         <span className="w-4 h-4 md:w-5 md:h-5 bg-green-400 rounded-full">
                             <FaWhatsapp className="w-full h-full text-black" /></span>:
                         <div className="text-white">{"(17)99178-8780"}</div>
-                    </div>
+                    </a>
 
-                    <div className="flex justify-center items-center text-veforte font-bold cursor-pointer">
+                    <a href="tel:+5517991788780" title="Ligue agora"
+                        className="flex justify-center items-center text-veforte font-bold cursor-pointer">
                         <span className="w-4 h-4 md:w-5 md:h-5 bg-white rounded-full">
                             <MdOutlinePhoneCallback className="w-full h-full text-black" /></span>:
                         <div className="text-white">{"(17)99178-8780"}</div>
-                    </div>
+                    </a>
 
                     <div className="h-full flex justify-around items-center border-x border-black space-x-3 px-3">
-                        <div className="w-5 h-5 cursor-pointer">
+                        <a href="https://www.google.com/maps/place/Dona+Clemes+Salgados/@-20.4150773,-49.9706262,17z/data=!3m1!4b1!4m6!3m5!1s0x94bd59dd02de972b:0x969450d3d822b5cd!8m2!3d-20.4150773!4d-49.9680513!16s%2Fg%2F11h45vkncs?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D"
+                           target="_blank" title="Ir para o Google Maps" className="w-5 h-5 cursor-pointer">
                             <LuMapPinned className="w-full h-full text-black" />
-                        </div>
-                        <div className="w-5 h-5 cursor-pointer">
+                        </a>
+                        <a href="https://www.instagram.com/donaclemessalgados/" title="Instagram" target="_blank"
+                         className="w-5 h-5 cursor-pointer">
                             <TiSocialInstagram className="w-full h-full text-black" />
-                        </div>
-                        <div className="w-5 h-5 cursor-pointer">
+                        </a>
+                        <a href="https://www.facebook.com/donaclemessalgados/" title="Instagram" target="_blank"
+                            className="w-5 h-5 cursor-pointer">
                             <FaFacebookSquare className="w-full h-full text-black" />
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

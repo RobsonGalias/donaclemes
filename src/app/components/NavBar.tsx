@@ -26,8 +26,8 @@ export const NavBar = () => {
 
       {/* Menu principal */}
       <ul
-        className={`absolute text-xl top-0 left-0 w-screen flex flex-col items-center space-y-6 pt-20  transition-transform duration-300 ${
-          isOpen ? "translate-x-0 bg-amber-600" : "-translate-x-full lg:translate-x-0"
+        className={`absolute text-xl top-0 left-0 flex flex-col items-center space-y-6 pt-20  transition-transform duration-300 ${
+          isOpen ? "translate-x-0 bg-amber-600 w-full ml-4" : "left-[-400px] -translate-x-full lg:translate-x-0"
         }`}
       >
         <li className="cursor-pointer hover:text-black">Início</li>

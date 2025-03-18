@@ -1,4 +1,26 @@
+"use client";
+
+import { motion, useMotionValue, useSpring } from "framer-motion";
+import { useEffect } from "react";
+
 export const AboutOrder = () => {
+    const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  // Criando um movimento suave e sutil
+  const smoothX = useSpring(mouseX, { stiffness: 50, damping: 20 });
+  const smoothY = useSpring(mouseY, { stiffness: 50, damping: 20 });
+
+  useEffect(() => {
+    const handleMouseMove = (event: MouseEvent) => {
+      // Ajusta a posição com um pequeno atraso e distância reduzida
+      mouseX.set(event.clientX * 0.05); // Reduz o deslocamento
+      mouseY.set(event.clientY * 0.05);
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, [mouseX, mouseY]);
 
     return (
         <section id="about" className="w-screen flex justify-center items-center flex-col py-[90px] relative

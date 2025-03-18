@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { IoCartOutline } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 const jsonData = {
     "websites": [
@@ -200,46 +201,84 @@ export const MakeOrder = () => {
                 <div id="products" className="w-full place-items-center pb-[40px] md:pb-[200px]">
                     <div className="w-full flex justify-center items-center flex-col md:flex-row md:space-x-[42px]
                         space-y-10 mb-10 md:space-y-0">
-                        <div className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#C24011] hover:bg-veforte p-4 text-white 
-                        text-center flex items-center justify-center flex-col space-y-8 cursor-pointer transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(0)}>
+
+                        {/** Categoria - Assados */}
+                        <motion.div
+                            className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#C24011] hover:bg-veforte p-4 text-white 
+                                text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
+                                transition-colors duration-300 ease-in-out"
+                            onClick={() => handleCategoryClick(0)}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.2 }}
+                        >
                             <div className="w-[100px] h-[100px] lg:w-[192px] lg:h-[192px]">
                                 <Image alt="" src={"/images/p-assados.png"} width={800} height={800}
                                     className="w-full h-full object-cover" />
                             </div>
-                            <span className="font-bold text-[40px] text-white ">ASSADOS</span>
-                        </div>
-                        <div className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F0B143] hover:bg-veforte p-4 
-                        text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(1)}>
+                            <span className="font-bold text-[40px] text-white">ASSADOS</span>
+                        </motion.div>
+
+                        {/** Categoria - Fritos */}
+                        <motion.div
+                            className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F0B143] hover:bg-veforte p-4 
+                            text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
+                            transition-colors duration-300 ease-in-out"
+                            onClick={() => handleCategoryClick(1)}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                            viewport={{ once: true, amount: 0.2 }}
+                        >
                             <div className="w-[100px] h-[100px] lg:w-[192px] lg:h-[192px]">
                                 <Image alt="" src={"/images/p-fritos.png"} width={800} height={800}
                                     className="w-full h-full object-cover" />
                             </div>
-                            <span className="font-bold text-[40px] text-white ">FRITOS</span>
-                        </div>
+                            <span className="font-bold text-[40px] text-white">FRITOS</span>
+                        </motion.div>
+
                     </div>
 
                     <div className="w-full flex justify-center items-center flex-col md:flex-row md:space-x-[42px]
                         space-y-10 mb-10 md:mb-0 md:space-y-0">
-                        <div className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F05F06] hover:bg-veforte p-4 
-                        text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(2)}>
+
+                        {/** Categoria - Para Festas */}
+                        <motion.div
+                            className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F05F06] hover:bg-veforte p-4 
+                            text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
+                            transition-colors duration-300 ease-in-out"
+                            onClick={() => handleCategoryClick(2)}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.2 }}
+                        >
                             <div className="w-[100px] h-[100px] lg:w-[192px] lg:h-[192px]">
-                            <Image alt="" src={"/images/p-festas.png"} width={800} height={800}
-                                     className="w-full h-full object-cover"/>
+                                <Image alt="" src={"/images/p-festas.png"} width={800} height={800}
+                                    className="w-full h-full object-cover" />
                             </div>
-                            <span className="font-bold text-[40px] text-white ">PARA FESTAS</span>
-                        </div>
-                        <div className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F58142] hover:bg-veforte p-4 
-                        text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(3)}>
+                            <span className="font-bold text-[40px] text-white">PARA FESTAS</span>
+                        </motion.div>
+
+                        {/** Categoria - Especiais */}
+                        <motion.div
+                            className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F58142] hover:bg-veforte p-4 
+                            text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
+                            transition-colors duration-300 ease-in-out"
+                            onClick={() => handleCategoryClick(3)}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                            viewport={{ once: true, amount: 0.2 }}
+                        >
                             <div className="w-[100px] h-[100px] lg:w-[192px] lg:h-[192px]">
-                            <Image alt="" src={"/images/p-especiais.png"} width={800} height={800}
-                                     className="w-full h-full object-cover"/>
+                                <Image alt="" src={"/images/p-especiais.png"} width={800} height={800}
+                                    className="w-full h-full object-cover" />
                             </div>
-                            <span className="font-bold text-[40px] text-white ">ESPECIAIS</span>
-                        </div>
+                            <span className="font-bold text-[40px] text-white">ESPECIAIS</span>
+                        </motion.div>
+
                     </div>
                 </div>
             </section>
@@ -265,8 +304,15 @@ export const MakeOrder = () => {
 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-14 mt-[123px] mb-[100px]">
                     {item.recipies.map((recipe, index) => (
-                        <div key={index} className="w-[170px] flex flex-col justify-[flex-start] items-center border 
-                        border-[#D9D9D9] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]">
+                        <motion.div
+                            key={index}
+                            className="w-[170px] flex flex-col justify-[flex-start] items-center border 
+                            border-[#D9D9D9] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]"
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true, amount: 0.2 }}
+                        >
                             <Image
                                 src={recipe.image}
                                 alt={recipe.name}
@@ -274,12 +320,15 @@ export const MakeOrder = () => {
                                 height={170}
                                 className="w-full h-[170px] object-cover bg-green-400"
                             />
-                            <h4 className="text-black font-bold text-[13px] mt-5 mb-4 text-center md:text-base">{recipe.name}</h4>
-                            <p className="text-[#ABA3A3] font-bold text-[12px] text-center mb-9 md:text-sm">{recipe.desc}</p>
-                            <div className="w-[54px] h-[43px] mb-5 cursor-pointer">
+                            <h4 className="text-black font-bold text-[13px] mt-5 mb-4 text-center md:text-base">
+                                {recipe.name}</h4>
+                            <p className="text-[#ABA3A3] font-bold text-[12px] text-center mb-9 md:text-sm">
+                                {recipe.desc}</p>
+                            <a href="https://wa.me/5517991788780" title="Ir para o WhatsApp" target="_blank"
+                                className="w-[54px] h-[43px] mb-5 cursor-pointer">
                                 <IoCartOutline width={245} height={170} className="text-black w-full h-full" />
-                            </div>
-                        </div>
+                            </a>
+                        </motion.div>
                     ))}
                 </div>
             </section>

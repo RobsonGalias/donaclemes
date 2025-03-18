@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 const feedbacks = [
   {
@@ -40,8 +41,15 @@ export default function FeedbackCarousel() {
     <div className="w-screen text-center bg-white py-[130px]">
       {/* Feedback Ativo */}
       <div className="flex flex-col items-center">
-        <h2 className="font-barlow text-4xl text-lafraco font-bold md:text-5xl">
-          Feedback dos Clientes</h2>
+        <motion.h2
+          className="font-barlow text-4xl text-lafraco font-bold md:text-5xl"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          Feedback dos Clientes
+        </motion.h2>
         {/* Imagem redonda */}
         <div className="w-[230px] h-[230px] rounded-full overflow-hidden border-2 border-gray-300 mt-[84px]">
           <Image
