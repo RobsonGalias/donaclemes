@@ -26,8 +26,8 @@ export const NavBar = () => {
 
       {/* Menu principal */}
       <ul
-        className={`absolute text-xl top-0 left-0 flex flex-col items-center space-y-6 pt-20  transition-transform duration-300 ${
-          isOpen ? "translate-x-0 bg-[rgba(245,158,11,0.75)] w-full ml-4" : "left-[-400px] -translate-x-full lg:translate-x-0"
+        className={`absolute text-xl top-0 left-0 flex flex-col items-center space-y-6 pt-20 border-solid transition-transform duration-300 ${
+          isOpen ? "translate-x-0 bg-[rgba(245,158,11,1)] w-full ml-4" : "left-[-400px] -translate-x-full lg:translate-x-0"
         }`}
       >
         <li className="cursor-pointer hover:text-black">Início</li>
@@ -44,20 +44,20 @@ export const NavBar = () => {
 
           {isSubMenuOpen && (
             <span
-              className="absolute w-[200px] lg:static top-10 flex flex-col items-center text-white
-                border-x border-b border-[#676565]/40 bg-[rgba(245,158,11,0.75)] text-[14px] shadow-lg"
+              className="absolute w-[200px] lg:static top-10 flex flex-col items-center text-white border-solid
+                border-x border-b border-[#676565]/40 bg-[rgba(245,158,11,1)] text-[14px] shadow-lg"
             >
               <li className="w-full text-center py-2 hover:text-black"
                 onClick={() => scrollToSection("products")}>Assados</li>
-              <li className="w-full text-center py-2 border-t border-[#676565]/40 hover:text-black"
+              <li className="w-full text-center py-2 border-solid border-t border-[#676565]/40 hover:text-black"
                 onClick={() => scrollToSection("products")}>
                 Fritos
               </li>
-              <li className="w-full text-center py-2 border-t border-[#676565]/40 hover:text-black"
+              <li className="w-full text-center py-2 border-solid border-t border-[#676565]/40 hover:text-black"
                 onClick={() => scrollToSection("products")}>
                 Para Festas
               </li>
-              <li className="w-full text-center py-2 border-t border-[#676565]/40 hover:text-black"
+              <li className="w-full text-center py-2 border-solid border-t border-[#676565]/40 hover:text-black"
                 onClick={() => scrollToSection("products")}>
                 Especiais
               </li>  
