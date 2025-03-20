@@ -306,7 +306,7 @@ export const MakeOrder = () => {
                     {item.recipies.map((recipe, index) => (
                         <motion.div
                             key={index}
-                            className="w-[170px] flex flex-col justify-[flex-start] items-center border 
+                            className="w-[170px] flex flex-col justify-[flex-start] items-center border-solid border 
                             border-[rgb(217,217,217)] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]"
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
