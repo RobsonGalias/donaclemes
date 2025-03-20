@@ -19,6 +19,13 @@
   --background-image-transparente: url('/images/transparente.webp');
 }
 
+@layer utilities {
+  .will-change-bg {
+    will-change: transform, background-color;
+    transform: translateZ(0);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
