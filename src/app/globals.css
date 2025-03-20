@@ -17,6 +17,7 @@
   --background-image-logo: url('/images/logo.png');
   --background-image-plate: url('/images/plate.png');
   --background-image-transparente: url('/images/transparente.webp');
+  --will-change: transform, background-color;
 }
 
 @layer utilities {

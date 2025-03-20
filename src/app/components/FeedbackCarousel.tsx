@@ -81,7 +81,7 @@ export default function FeedbackCarousel() {
         {feedbacks.map((_, i) => (
           <div
             key={i}
-            className={`w-3 h-3 md:w-5 md:h-5 rounded-full ${index === i ? "bg-lafraco" : "bg-gray-300"}`}
+            className={`w-3 h-3 md:w-5 md:h-5 rounded-full ${index === i ? "bg-lafraco" : "bg-[rgba(209,213,219,1)]"}`}
           ></div>
         ))}
       </div>
