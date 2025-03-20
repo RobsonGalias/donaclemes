@@ -124,7 +124,7 @@ export const ContactForm = () => {
                                     onChange={(e) => setName(e.target.value)}
                                     value={name}
                                     maxLength={100}
-                                    className={`w-[100%] h-[36px] bg-black/25 text-white rounded-md font-bold md:w-[95%]
+                                    className={`w-[100%] h-[36px] bg-[rgba(0,0,0,0.25)] text-white rounded-md font-bold md:w-[95%]
                                         ${nameError ? 'placeholder-red-600' : 'placeholder-white'} pl-4`}
                                 />
                             </div>
@@ -135,7 +135,7 @@ export const ContactForm = () => {
                                     placeholder={emailError || "Email"}
                                     onChange={(e) => setEmail(e.target.value)}
                                     value={email}
-                                    className={`w-[100%] h-[36px] bg-black/25 text-white font-bold rounded-md md:w-[95%]
+                                    className={`w-[100%] h-[36px] bg-[rgba(0,0,0,0.25)] text-white font-bold rounded-md md:w-[95%]
                                         ${emailError ? 'placeholder-red-600' : 'placeholder-white'} pl-4`}
                                 />
                             </div>
@@ -149,11 +149,11 @@ export const ContactForm = () => {
                                     onChange={(e) => setMessage(e.target.value)}
                                     value={message}
                                     maxLength={500}
-                                    className={`w-[100%] h-[130px] bg-black/25 text-white font-bold rounded-md md:w-[98%] 2xl:w-[98%] 
+                                    className={`w-[100%] h-[130px] bg-[rgba(0,0,0,0.25)] text-white font-bold rounded-md md:w-[98%] 2xl:w-[98%] 
                                         ${messageError ? 'placeholder-red-600' : 'placeholder-white pt-2'} pl-4`}
                                 />
 
-                                <button type="submit" className="mt-4 font-conthrax text-[16px] bg-vermelho text-black bg-black/25 border border-white
+                                <button type="submit" className="mt-4 font-conthrax text-[16px] bg-vermelho text-black bg-[rgba(0,0,0,0.25)] border border-white
                                     px-3 rounded-lg uppercase font-bold cursor-pointer">Enviar</button>
                             </div>
                         </div>

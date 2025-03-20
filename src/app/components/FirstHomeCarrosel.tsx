@@ -48,20 +48,23 @@ export const FirstHomeCarrosel = () => {
                         <div className="w-full h-full flex justify-between items-center cursor-pointer">
                             {/* Indicadores de navegação */}
                             <div
-                                className={`w-[20px] h-[10px] lg:w-[40px] lg:h-[20px] ${changeBanner === 0 ? 'border-white' : ''} rounded-full
-                                hover:bg-laranja border-[4px] border-[#F6E88D]`}
+                                className={`w-[20px] h-[10px] border-[4px] border-[rgb(246,232,141)] lg:w-[40px] lg:h-[20px] 
+                                    ${changeBanner === 0 ? 'border-white' : ''} rounded-full
+                                hover:bg-laranja border-[4px] border-[rgb(246,232,141)]`}
                                 onClick={() => setChangeBanner(0)}
                             ></div>
 
                             <div
-                                className={`w-[20px] h-[10px] lg:w-[40px] lg:h-[20px] ${changeBanner === 1 ? 'border-white' : ''} rounded-full
-                                hover:bg-laranja border-[4px] border-[#F6E88D]`}
+                                className={`w-[20px] h-[10px] border-[4px] border-[rgb(246,232,141)] lg:w-[40px] lg:h-[20px] 
+                                    ${changeBanner === 1 ? 'border-white' : ''} rounded-full
+                                hover:bg-laranja border-[4px] border-[rgb(246,232,141)]`}
                                 onClick={() => setChangeBanner(1)}
                             ></div>
 
                             <div
-                                className={`w-[20px] h-[10px] lg:w-[40px] lg:h-[20px] ${changeBanner === 2 ? 'border-white' : ''} rounded-full
-                                hover:bg-laranja border-[4px] border-[#F6E88D]`}
+                                className={`w-[20px] h-[10px] border-[4px] border-[rgb(246,232,141)] lg:w-[40px] lg:h-[20px] 
+                                    ${changeBanner === 2 ? 'border-white' : ''} rounded-full
+                                hover:bg-laranja border-[4px] border-[rgb(246,232,141)]`}
                                 onClick={() => setChangeBanner(2)}
                             ></div>
                         </div>
