@@ -307,7 +307,7 @@ export const MakeOrder = () => {
                         <motion.div
                             key={index}
                             className="w-[170px] flex flex-col justify-[flex-start] items-center border 
-                            border-[#D9D9D9] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]"
+                            border-[rgb(217,217,217)] bg-[#F7F7F7] mb-10 lg:mb-[20px] md:w-[245px]"
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
