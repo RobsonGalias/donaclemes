@@ -322,7 +322,7 @@ export const MakeOrder = () => {
                             />
                             <h4 className="text-black font-bold text-[13px] mt-5 mb-4 text-center md:text-base">
                                 {recipe.name}</h4>
-                            <p className="text-[#ABA3A3] font-bold text-[12px] text-center mb-9 md:text-sm">
+                            <p className="text-[#ABA3A3] px-2 font-bold text-[12px] text-center mb-9 md:text-sm">
                                 {recipe.desc}</p>
                             <a href="https://wa.me/5517991788780" title="Ir para o WhatsApp" target="_blank"
                                 className="w-[54px] h-[43px] mb-5 cursor-pointer">
