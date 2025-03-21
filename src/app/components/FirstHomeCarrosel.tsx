@@ -8,7 +8,7 @@ export const FirstHomeCarrosel = () => {
     const [changeBanner, setChangeBanner] = useState(0);
     const totalBanners = 3;
 
-    const banners = ["/images/banner-1.webp", "/images/especiais.webp", "/images/banner-3.webp"];
+    const banners = ["/images/banner-11.webp", "/images/especiais.webp", "/images/banner-3.webp"];
 
     useEffect(() => {
         const timer = setTimeout(() => {
