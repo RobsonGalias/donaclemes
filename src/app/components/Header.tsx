@@ -41,7 +41,7 @@ export function Header() {
                          className="w-5 h-5 cursor-pointer">
                             <TiSocialInstagram className="w-full h-full text-black" />
                         </a>
-                        <a href="https://www.facebook.com/donaclemessalgados/" title="Instagram" target="_blank"
+                        <a href="https://www.facebook.com/donaclemessalgados/" title="Facebook" target="_blank"
                             className="w-5 h-5 cursor-pointer">
                             <FaFacebookSquare className="w-full h-full text-black" />
                         </a>
