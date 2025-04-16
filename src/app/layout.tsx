@@ -37,21 +37,21 @@ export default function RootLayout({
     <html lang="pt-br">
       <Head>
         <meta name="keywords" content="salgados Dona Clemes, salgados para festas, salgados gourmet, salgados assados e fritos, salgados caseiros, esfirra de carne, esfirra de frango, esfirra de calabresa, esfirra de queijo caipira, cachorro quente de carne, cachorro quente de frango, corintiano assado, empada Dona Clemes, coxinha de carne, coxinha de frango, bolinha de queijo, kibe Dona Clemes, churros, salgados para negócios, salgados para lanchonetes, salgados para buffets, salgados para revenda, salgados para conveniência, salgados para eventos, salgados fresquinhos, salgados irresistíveis, receitas de salgados caseiros, salgados de qualidade" />
-        <meta name="google-site-verification" content="verificacao_do_seu_site" />
+        <meta name="google-site-verification" content="MAq54D2ctPhhQgO8Xl5UJFt2_IbquPSfvpfHaZcDnCo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
         {/*<!-- Open Graph -->*/}
         <meta property="og:title" content="O melhor salgado de Votuporanga e região! | Dona Clemes"/>
         <meta property="og:description" content="A Dona Clemes oferece salgados irresistíveis e de qualidade, perfeitos para festas e negócios. Com receitas caseiras e ingredientes selecionados, nossos produtos garantem sabor e praticidade para encantar seus clientes. Ideal para lanchonetes, buffets e eventos, Dona Clemes transforma qualquer ocasião com opções deliciosas e inesquecíveis!"/>
         <meta property="og:image" content="link depois que o site estiver no ar"/>
-        <meta property="og:url" content="https://www.donaclemes.com"/>
+        <meta property="og:url" content="https://www.donaclemessalgados.com.br"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="O melhor salgado de Votuporanga e região! | Dona Clemes"/>
         <meta name="twitter:description" content="A Dona Clemes oferece salgados irresistíveis e de qualidade, perfeitos para festas e negócios. Com receitas caseiras e ingredientes selecionados, nossos produtos garantem sabor e praticidade para encantar seus clientes. Ideal para lanchonetes, buffets e eventos, Dona Clemes transforma qualquer ocasião com opções deliciosas e inesquecíveis!"/>
         <meta name="twitter:image" content="link depois que o site estiver no ar"/>
-        <meta name="twitter:url" content="https://www.donaclemes.com"></meta>
+        <meta name="twitter:url" content="https://www.donaclemessalgados.com.br"></meta>
         
         {/* Schema Markup for Products */}
         <script
@@ -66,7 +66,7 @@ export default function RootLayout({
               "sku": "COX20230315",
               "offers": {
                 "@type": "Offer",
-                "url": "https://www.donaclemes.com/#products",
+                "url": "https://www.donaclemessalgados.com.br",
                 "priceCurrency": "BRL",
                 "price": "5.00",
                 "priceValidUntil": "2025-12-31",
