@@ -207,7 +207,7 @@ export const MakeOrder = () => {
                             className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#C24011] hover:bg-veforte p-4 text-white 
                                 text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
                                 transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(0)}
+                            onClick={() => handleCategoryClick(2)}
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -248,7 +248,7 @@ export const MakeOrder = () => {
                             className="w-[300px] h-[300px] xl:w-[435px] xl:h-[435px] bg-[#F05F06] hover:bg-veforte p-4 
                             text-white text-center flex items-center justify-center flex-col space-y-8 cursor-pointer 
                             transition-colors duration-300 ease-in-out"
-                            onClick={() => handleCategoryClick(2)}
+                            onClick={() => handleCategoryClick(0)}
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
