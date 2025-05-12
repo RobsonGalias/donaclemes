@@ -139,7 +139,7 @@ export const ThreeDivs = () => {
                 <div className="w-[62px] h-[62px]">
                     <Image alt="" src={"/images/step-3.png"} width={800} height={800} className="w-full h-full object-cover" />
                 </div>
-                <h6 className="text-2xl font-bold mt-9 mb-[22px] uppercase">ENTREGUA</h6>
+                <h6 className="text-2xl font-bold mt-9 mb-[22px] uppercase">ENTREGA</h6>
                 <p className="font-medium text-center px-4 lg:px-10">
                     Seu pedido chega fresquinho ou quentinho, com entrega pontual ou retirada facilitada.
                 </p>
